@@ -20,6 +20,8 @@ node_modules
 
 # Tests output
 nw/reports
+nw/logs
+nw/screenshots
 
 
 .DS_Store
