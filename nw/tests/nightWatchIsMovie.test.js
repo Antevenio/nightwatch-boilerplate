@@ -11,8 +11,7 @@ module.exports = {
 
     'Check movie name': (browser) => {
         browser
-            .assert.containsText('.mod .kno-ecr-pt.kno-fb-ctx', browser.globals.movieName)
-            .assert.containsText('.mod ._gdf', '2004')
+            .assert.containsText('#main', browser.globals.movieName)
     },
 
     after: (browser) => {
