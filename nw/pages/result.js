@@ -1,7 +1,7 @@
 module.exports = {
     elements: {
-        movieTitle: '.mod .kno-ecr-pt.kno-fb-ctx',
-        movieYear: '.mod ._gdf'
+        movieTitle: '#main',
+        movieYear: '#main'
     },
     commands: [{
         checkMovieName () {
